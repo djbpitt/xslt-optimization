@@ -16,3 +16,6 @@ Comments on XML Prague paper:
 
 1. Michael Kay: Modifying arrays or maps might be more efficient than modifying nodes
 2. Accumulators (Michael Kay was skeptical)
+
+
+Ran some intitial tests with current setup 2020-03-06 basically just to test Saxon-EE was working. Threads seems to slow things down, but if we do longer runs wit a limited number 2-4 it might be beneficial for the baselining.
